@@ -1,18 +1,24 @@
 * {
     box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* overflow-x: hidden !important; */
 }
 
 body {
     margin: 0;
+    background-color: #8d00ce !important;
 }
 
 .container {
-    height: 100%;
-    background-color: #5b0085;
-    margin: 0;
-    height: 100%;
-    /* flex: content; */
+    /* height: 100% !important; */
+    /* margin: 0; */
+    /* width: 100% !important; */
+    /* padding: 100% !important; */
+    flex: 0% !important;
     text-align: center;
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: stretch !important;
 }
 
 .nav {
@@ -57,4 +63,18 @@ body {
     background-color: rgb(201, 201, 201) !important;
     color: black !important;
     height: 100%;
+}
+
+
+.quote {
+    padding: 2rem;
+    color: white;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.cardsList {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row
 }
