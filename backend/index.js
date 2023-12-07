@@ -32,7 +32,7 @@ app.use(
     saveUninitialized: true,
     cookie: { maxAge: 60000000 },
     store: MongoStore.create({
-      mongoUrl: "mongodb://root:example@127.0.0.1:27017",
+      mongoUrl: "mongodb://127.0.0.1:27017/local",
     }),
   })
 );
